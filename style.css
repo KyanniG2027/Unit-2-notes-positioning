@@ -4,7 +4,25 @@ img{
 
 #absolute{
     position: absolute;
-    bottom: 23px;
-    right: 50%;
+    top: 87px;
+    left: 40%;
+    z-index:-5;
 }
 
+#container{
+  background-color: rgb(141, 225, 224);
+  display: inline-block;
+}
+
+#relative{
+    position: relative;
+    top:200px;
+    left:25px;
+}
+
+#fixed{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
